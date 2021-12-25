@@ -1,0 +1,379 @@
+body{
+    
+  font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hero h1
+{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    color: #0e1133;
+    margin: 0px;
+    font-size: 58px;;
+}
+.hero p{
+    color: #505056;
+    margin: 0px;
+    font-size: 18px;;
+}
+.hero ul  li a{
+    background: #0e1133;
+    color: #fff;
+    line-height: 40px;
+    padding: 3px 30px;
+    border-radius: 6px;
+    border: 2px solid #0e1133;
+    display: inline-block;
+    margin:0px;
+    text-decoration: none;
+}
+.hero .text 
+{
+    display: inline-block;
+}
+.hero ul  li
+{
+    list-style: none;
+    display: inline-block;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+.hero ul  li a.item2
+{
+    background: transparent;
+    color: #0e1133;
+    border-radius: 6px;
+    border: 2px solid #0e1133;
+    margin-top: 20px;
+    display: inline-block;
+    
+}
+.hero ul
+{
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    display: inline;
+}
+.hero .img
+{
+    
+    float: right;
+}
+
+/*services*/
+.services{
+    padding-bottom: 100px;
+    padding-top: 100px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #505056;
+    background-color: #eef1f6;
+    margin-top: 100px;;
+}
+.services .title
+{
+    font-size: 44px;
+    line-height: 54px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    color: #0e1133;
+
+}
+.row{
+    margin-right:0px; 
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.services .service1 img
+{
+    vertical-align: middle;
+    border-style: none;
+}
+.services .service1{
+    padding: 50px 30px 43px;
+    background: #fff;
+    border-radius: 6px;
+}
+.services .service1 .icon{
+    display: inline-block;
+    border-radius: 20px;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    line-height: 70px;
+    background: linear-gradient(
+135deg, #84bcfa 0%, #2b70fa 100%);
+    box-shadow: 0px 6px 10px 0px rgb(16 73 189 / 30%);
+    position: relative;
+}
+.services .service1 .sec{
+    background: linear-gradient(
+        135deg, #f7b8af 0%, #f8452d 100%);       
+}
+.services .service1 .thi{
+    background: linear-gradient(
+135deg, #a0eac2 0%, #31c369 100%);
+}      
+
+.services .service1 .for{
+    background: linear-gradient(
+135deg, #d8aaff 0%, #9b2cfa 100%);      
+}
+
+.services .service1 .icon span
+{
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    height: 30px;
+    width: 30px;
+    background: #2b70fa;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0px 3px 6px 0px rgb(14 17 51 / 10%);
+    line-height: 28px;
+    color: #fff;
+}
+.services .service1 .sec span{
+    background-color: #f8452d;
+}
+.services .service1 .thi span{
+    background-color: #31c369
+}
+.services .service1 .for span{
+    background-color: #9b2cfa;
+}
+
+.services .service1 .title1{
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 33px;
+    padding-bottom: 10px;
+    color:#0e1133;
+    margin: 0px;;
+}
+.services .service1 p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #505056;
+    margin: 0px;
+}
+/*features*/
+
+.nav-pills .nav-link.active
+{
+    border-right-color: #2b70fa;
+    background: transparent;
+    color: #2b70fa;
+}
+.nav-pills a
+{
+    border-right-color: #2b70fa;
+    background: transparent;
+    color: #707070;
+    border-right: 3px solid #e8eaef;
+    border-radius: 0 !important;
+    font-size: 18px;
+    font-weight: 500;
+}
+.nav-pills .nav-link.active svg
+{
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 35px;
+    background: #2b70fa;
+    color: #fff;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.nav-pills .nav-link svg
+{
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 35px;
+    color: #505050;
+    display: inline-block;
+    background-color:#f1f2f7 ;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.features .features-thumb 
+{
+    margin-left: 20px;
+    margin-top: 100px;
+}
+.features img
+{
+    width: 110%;
+}
+.features .features-content
+{
+    margin-left: 60px;
+    padding-top: 50px;
+    width: 100%;
+}
+.features .features-content span
+{
+    font-size: 14px;
+    font-weight: 500;
+    color: #2b70fa;
+    margin-bottom: 8px;
+}
+.features .features-content .title
+{
+    font-size: 44px;
+    line-height: 54px;
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    color: #0e1133;
+    margin: 0px;
+}
+.features .features-content p
+{
+    font-size: 18px;
+    line-height: 28px;
+    padding-bottom: 30px;
+    font-weight: 400;
+    margin: 0;
+    color: #505056;
+}
+.features .features-content .main-btn
+{
+    display: inline-block;
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid #2b70fa;
+    padding: 0 30px;
+    font-size: 15px;
+    line-height: 45px;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #2b70fa;
+    text-decoration: none;
+}
+/*traffic*/
+ .traffic .traffic-title span
+{
+    font-size: 14px;
+    font-weight: 500;
+    color: #2b70fa;
+}
+.traffic .traffic-title .title
+{
+    font-size: 44px;
+    line-height: 54px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    color: #0e1133;
+    margin: 0px;
+}
+.traffic .traffic-title p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #505056;
+    margin: 0px;
+    padding-top: 10px;;
+}
+.traffic .traffic-service .title{
+    position: relative;
+    padding-left: 40px;
+    padding-right: 70px;
+    margin-top: 5px;;
+}
+.traffic .traffic-service .icon svg{
+height: 26px;
+    width: 26px;
+    text-align: center;
+    line-height: 26px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #84bcfa 0%, #2b70fa 100%);
+    color: #fff;
+    font-size: 14px;
+    box-shadow: 0px 6px 10px 0px rgb(16 73 189 / 30%);
+}
+.traffic-service.item-3 .icon svg
+{
+    background: linear-gradient(135deg, #a0eac2 0%, #31c369 100%);
+} 
+.traffic-service.item-2 .icon svg
+{
+    background: linear-gradient(
+135deg, #f7b8af 0%, #f8452d 100%);
+} 
+.traffic-service.item-4 .icon svg
+{
+    background: linear-gradient(
+        135deg, #d8aaff 0%, #9b2cfa 100%);
+} 
+.traffic .traffic-service .icon
+{
+    display: inline-block;
+    position: absolute;
+    left: 5;
+    top: 52px;
+}
+
+.traffic-service .title
+{
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 7px;
+    color: #0e1133;
+    margin: 0px;
+}
+.traffic .traffic-service p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #505056;
+    margin: 0px;
+    padding-left: 40px;;
+}
+.traffic .traffic-service{
+    margin-top: 50px;;
+}
+.traffic-btn a.main-btn
+{
+    background: transparent;
+    color: #0e1133;
+    border: 2px solid #e7eaef;
+    display: inline-block;
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    padding: 0 30px;
+    font-size: 15px;
+    line-height: 45px;
+    border-radius: 6px;
+    color: #707070;
+    cursor: pointer;
+    margin-top: 50px;;
+    text-decoration: none;
+}
+.traffic
+{
+    position: relative;
+
+}
+ .traffic .traffic-thumb img{
+    position: absolute;
+    left:780px;
+    top: 80px;
+    width:42%;
+}
